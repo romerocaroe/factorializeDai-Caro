@@ -1,7 +1,5 @@
 const factorialize = function(num){
-
-    /* YOUR CODE HERE */
-
+    return num < 2 ? num : num * factorialize(num - 1) 
 }
 
 module.exports = factorialize
